@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "dev": "nodemon --watch * --exec 'electron .'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris Kelly, Ryan Tong, Aki Saito",

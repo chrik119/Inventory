@@ -1,0 +1,29 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: brown !important;
+}
+
+a{
+    background-color: burlywood !important;
+    width: 30%;
+    border-color: transparent !important;
+    color: #000000 !important;
+}
+
+h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+#tagsEntered{
+    padding: 0 0.5rem;
+    margin: 0.5rem 0;
+    background-color: burlywood !important;
+    border-radius: .25rem;
+}
+
+.container{
+    padding: 1rem;
+    width: 100%;
+}

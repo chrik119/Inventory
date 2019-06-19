@@ -11,20 +11,23 @@
 
   <body>
     <div class="container">
-      <h1 class="display-3">Warehouse Inventory</h1>   
+      <h1 class="display-3">ADD ITEM</h1>   
       <div>
-        <div class="row">
-            <a class="btn btn-primary mx-auto mb-3" href="addItem.html" role="button">ADD ITEM</a>
+        <div class="form-group">
+            <input type="text" class="form-control" id="name" placeholder="name">
         </div>
-        <div class="row">
-            <a class="btn btn-primary mx-auto mb-3" href="search.html" role="button">SEARCH</a>
+        <div class="form-group">
+            <input type="text" name="tags" id="tags" class="form-control" placeholder="tags">
+            <div>
+                <p id="tagsEntered">"wall" "panels" "video wall" </p>
+            </div>
         </div>
-        <div class="row">
-            <a class="btn btn-primary mx-auto mb-3" href="index2.html" role="button">CALENDAR</a>
-        </div>
-        <div class="row">
-          <a class="btn btn-primary mx-auto mb-3" href="index2.html" role="button">CREATE A SHOW</a>
+        <div class="form-group">
+                <input type="number" name="count" id="count" class="form-control" placeholder="count">
+            </div>
       </div>
+      <div class="row">
+        <a class="btn btn-primary mx-auto mb-3" href="index.html" role="button">ENTER</a>
       </div>
     </div>
 
